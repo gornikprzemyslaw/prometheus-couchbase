@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: prometheus-deployment
-  namespace: iot
+  namespace: iot-dxc-normalizer
   labels:
     app: prometheus-server
 spec:

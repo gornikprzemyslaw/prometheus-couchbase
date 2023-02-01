@@ -4,7 +4,7 @@ metadata:
   name: prometheus-server-conf
   labels:
     name: prometheus-server-conf
-  namespace: iot
+  namespace: iot-dxc-normalizer
 data:
   prometheus.rules: |-
     groups:
