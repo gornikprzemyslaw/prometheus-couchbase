@@ -4,7 +4,7 @@ metadata:
   name: prometheus-server-conf
   labels:
     name: prometheus-server-conf
-  namespace: iot-dxc-normalizer
+  namespace: iot-dxc
 data:
   prometheus.rules: |-
     groups:
@@ -36,4 +36,4 @@ data:
         username: 'Administrator'    
         password: 'Password123'
       static_configs:
-        - targets: ['10.89.43.216:8091']
+        - targets: ['10.89.43.209:8091']
